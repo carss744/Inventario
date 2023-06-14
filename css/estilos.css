@@ -1,0 +1,85 @@
+:root{
+    --background: linear-gradient(135deg, #ff00d434 0%, #764ba233 100%);
+}
+
+body,html{
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: bottom;
+	position: relative;
+}
+
+.titlelogin{
+	color: white;
+	text-shadow: 2px  2px 2px rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+.button.loggin{
+	background-color: rgb(58, 57, 57);
+	border: none;
+	box-shadow: 2px  2px 2px rgb(0, 0, 0);
+	color: white;
+	text-shadow: 2px  2px 2px rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+.labelogin{
+	color: white;
+	text-shadow: 2px  2px 2px rgb(0, 0, 0);
+}
+
+.inputlogin{
+	background-color:  transparent;
+	box-shadow: 0px  3px 0px rgb(0, 0, 0);
+	border: 1px solid transparent;
+	border-bottom: 2px solid white;
+}
+
+.input#login_usuario{
+	color:rgb(255, 255, 255);
+}
+
+.input#login_clave{
+	color:rgb(255, 255, 255);
+}
+
+.main-container{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(/img/fondoneopro.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.main-container > .login,
+.main-container > .hero-body{
+	height: auto;
+	width: 100%;
+	max-width: 400px;
+	min-width: 300px;
+	border: 5px;
+	background-color: #211e1e;
+	padding: 60px;
+	
+}
+
+
+.form-inline{
+	display: inline-flex;
+}
+
+.tabla-p{
+	overflow-x: hidden;
+}
+
+.count{
+	padding: 5px;
+}
+
+
