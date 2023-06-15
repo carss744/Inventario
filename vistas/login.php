@@ -1,5 +1,5 @@
-<link href="http://localhost/Inventario/css/bootstrap.min.css" rel="stylesheet">
-<link href="http://localhost/Inventario/css/log.css" rel="stylesheet">
+<link href="http://localhost/Inventario/assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://localhost/Inventario/assets/css/log.css" rel="stylesheet">
 <div class="main-container">
 
 	<form class="box login" action="" method="POST" autocomplete="off">

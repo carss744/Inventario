@@ -51,7 +51,7 @@ body,html{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url(/img/fondoneopro.jpg);
+	background-image: url(../img/login.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
