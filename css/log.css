@@ -1,0 +1,85 @@
+@font-face {font-family: 'FuturaBoldg';src: url(fonts/FUTURAB.TTF) format('truetype');font-style: normal;font-weight: normal;}
+@font-face {font-family: 'FuturaBoldp';src: url(fonts/FUTURAH.TTF) format('truetype');font-style: normal;font-weight: normal;}
+@font-face {font-family: 'FuturaLight';src: url(fonts/FUTURAL.TTF) format('truetype');font-style: normal;font-weight: normal;}
+@font-face {font-family: 'FuturaLightn';src: url(fonts/FUTURAN.TTF) format('truetype');font-style: normal;font-weight: normal;}
+
+.login input{
+	background: none;
+}
+
+.register{
+	font-size: 20pt;
+}
+
+.box-register{
+	padding-top: 30px;
+}
+
+.iconlog{
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+	background-color: rgb(58, 57, 57);
+	color: white;
+	font-family: "FuturaLight";
+	font-weight: bold;
+	border-radius: 5px 5px 0px 5px;
+}
+
+.button.loggin{
+	background-color: rgb(58, 57, 57);
+	color: white;
+	font-family: "FuturaLight";
+	font-weight: bold;
+}
+
+.labelogin{
+	font-family: "FuturaLight";
+	color: rgb(0, 0, 0);
+	text-align: left;	
+	color:rgb(58, 57, 57);
+}
+
+.inputlogin{
+	font-family: "FuturaLight";
+	border: 1px solid rgb(58, 57, 57);
+	padding-left: 8px;
+}
+
+.input#login_usuario{
+	font-family: "FuturaLight";
+	color:rgb(255, 255, 255);
+}
+
+.input#login_clave{
+	font-family: "FuturaLight";
+	color:rgb(255, 251, 251);
+}
+
+.main-container > .login,
+.main-container > .hero-body{
+	text-align: center;
+	height: auto;
+	width: 100%;
+	max-width: 400px;
+	min-width: 300px;
+}
+
+
+.form-inline{
+	display: inline-flex;
+}
+
+.tabla-p{
+	overflow-x: hidden;
+}
+
+.count{
+	padding: 5px;
+}
+
+.title{
+	color:white;
+}
+
+

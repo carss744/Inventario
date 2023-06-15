@@ -1,19 +1,24 @@
-
+<link href="http://localhost/Inventario/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://localhost/Inventario/css/log.css" rel="stylesheet">
 <div class="main-container">
 
 	<form class="box login" action="" method="POST" autocomplete="off">
 		<h5 class="title titlelogin is-5 has-text-centered is-uppercase">INICIAR SESION</h5>
-
+		<br>
 		<div class="field">
-			<label class="label labelogin">Usuario</label>
-			<div class="control">
+			<div class="input-group">
+				<div class="input-gruop-text iconlog">
+					<i class="fa-solid fa-user"></i>
+				</div>
 			    <input class="input inputlogin" type="text" id="login_usuario" name="login_usuario" pattern="[a-zA-Z0-9]{4,20}" maxlength="20" >
 			</div>
 		</div>
-		<br><br>
+		<br>
 		<div class="field">
-		  	<label class="label labelogin">Clave</label>
-		  	<div class="control">
+		<div class="input-group">
+				<div class="input-gruop-text iconlog">
+				<i class="fa-solid fa-lock"></i>
+				</div>
 		    	<input class="input inputlogin" type="password" id="login_clave" name="login_clave" pattern="[a-zA-Z0-9$@.-]{7,100}" maxlength="100"  >
 		  	</div>
 		</div><br>
